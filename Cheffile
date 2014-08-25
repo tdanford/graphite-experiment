@@ -8,4 +8,5 @@ cookbook 'curl'
 cookbook 'vim'
 cookbook 'python'
 cookbook 'runit', '~>1.0'
-cookbook 'graphite'
+cookbook 'graphite',
+   :git => 'https://github.com/carlyeks/graphite.git'

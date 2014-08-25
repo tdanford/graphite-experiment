@@ -16,5 +16,6 @@ Vagrant.configure("2") do |config|
  
     chef.add_recipe 'apt'
     chef.add_recipe 'graphite'
+    chef.add_recipe 'graphite::apache'
   end
 end
