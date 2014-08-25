@@ -4,6 +4,8 @@
 site 'https://supermarket.getchef.com/api/v1'
 
 cookbook 'apt'
+cookbook 'curl'
+cookbook 'vim'
 cookbook 'python'
 cookbook 'runit', '~>1.0'
 cookbook 'graphite'
